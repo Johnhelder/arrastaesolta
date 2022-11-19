@@ -27,3 +27,15 @@ h1 {
   align-items: center;
   border: 2px solid #FFF;
 }
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
