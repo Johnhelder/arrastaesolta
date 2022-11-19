@@ -18,3 +18,12 @@ h1 {
   color: #FFF;
   margin: 20px 0;
 }
+
+.neutralArea {
+  width: 450px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #FFF;
+}
