@@ -39,3 +39,7 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
+
+.item.dragging {
+  opacity: 0.5;
+}
