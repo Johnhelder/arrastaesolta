@@ -49,3 +49,16 @@ h1 {
   display: flex;
   margin-top: 20px;
 }
+
+.areas.correct .area {
+  border: 2px solid #00FF00;
+}
+
+.area {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
