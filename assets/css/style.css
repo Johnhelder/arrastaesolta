@@ -43,3 +43,9 @@ h1 {
 .item.dragging {
   opacity: 0.5;
 }
+
+.areas {
+  width: 450px;
+  display: flex;
+  margin-top: 20px;
+}
