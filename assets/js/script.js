@@ -20,7 +20,8 @@ function dragEnd(e){
 
 //Funções Area
 function dragOver(e){
-
+  e.preventDefault();
+  e.currentTarget.classList.add('hover');
 }
 
 function dragLeave(){
@@ -28,5 +29,5 @@ function dragLeave(){
 }
 
 function drop(){
-  
+
 }
