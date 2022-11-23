@@ -17,3 +17,16 @@ function dragStart(e){
 function dragEnd(e){
   e.currentTarget.classList.remove('dragging')
 }
+
+//Funções Area
+function dragOver(e){
+
+}
+
+function dragLeave(){
+
+}
+
+function drop(){
+  
+}
