@@ -44,8 +44,9 @@ function drop(e){
 }
 
 //Função Neutral Area
-function dragOverNeutral(){
-
+function dragOverNeutral(e){
+ e.preventDefault();
+ e.currentTarget.classList.add('hover');
 }
 
 function dragLeaveNeutral(){
@@ -53,5 +54,5 @@ function dragLeaveNeutral(){
 }
 
 function dropNeutral(){
-  
+
 }
