@@ -20,8 +20,10 @@ function dragEnd(e){
 
 //Funções Area
 function dragOver(e){
+  if(e.currentTarget.querySelector('.item') === null){
   e.preventDefault();
   e.currentTarget.classList.add('hover');
+}
 }
 
 function dragLeave(){
