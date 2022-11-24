@@ -49,8 +49,8 @@ function dragOverNeutral(e){
  e.currentTarget.classList.add('hover');
 }
 
-function dragLeaveNeutral(){
-
+function dragLeaveNeutral(e){
+  e.currentTarget.classList.remove('hover');
 }
 
 function dropNeutral(){
