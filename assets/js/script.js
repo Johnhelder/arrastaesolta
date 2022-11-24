@@ -42,3 +42,16 @@ function drop(e){
     e.currentTarget.appendChild(dragItem);
   }
 }
+
+//Função Neutral Area
+function dragOverNeutral(){
+
+}
+
+function dragLeaveNeutral(){
+
+}
+
+function dropNeutral(){
+  
+}
