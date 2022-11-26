@@ -46,6 +46,7 @@ function drop(e){
 
   if(e.currentTarget.querySelector('.item') === null){
     e.currentTarget.appendChild(dragItem);
+    updateAreas();
   }
 }
 
@@ -63,4 +64,10 @@ function dropNeutral(e){
   e.currentTarget.classList.remove('hover');
   let dragItem = document.querySelector('.item.dragging');
   e.currentTarget.appendChild(dragItem);
+  updateAreas();
+}
+
+//Logic Functions
+function updateAreas(){
+
 }
